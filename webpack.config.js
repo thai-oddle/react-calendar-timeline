@@ -45,6 +45,7 @@ const config = {
     }
   },
   devServer: {
+    allowedHosts: 'all',
     static: {
       directory: './demo'
     },
